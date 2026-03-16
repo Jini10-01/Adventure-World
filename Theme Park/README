@@ -1,0 +1,53 @@
+## Synopsis
+Assignment of Fundamentals of Programming COMP5005
+
+## Contents
+README – readme file for Assignment
+1. adventureworld.py - driver program to simulate ButtonControl.py, Patrons.py, Rides.py, Statistics.py and Terrains.py 
+                       2 mode(interactive mode and batch mode) and error handling
+                       after timestamp, save 'Adventureworld Statistics YYYY-mm-dd_HH:MM:SS.png' image
+
+2. Patrons.py
+    Patrons() - manage the movement, state, and position of Patron walking around an theme park
+
+3. Rides.py
+    FerrisWheel(Rides) - FerrisWheel class set direction and movement, manage break, riding and queue
+    DropTower(Rides) - DropTower class set direction and movement, manage break, riding and queue
+    Hurricane(Rides) - Hurricane class set direction and movement, manage break, riding and queue
+    PirateShip(Rides) - PirateShip class set direction and movement, manage break, riding and queue
+
+4. Terrains.py
+    Terrains() - plot map(sky, ground, sun, moon, and cloud)
+    Pond() - plot barrier(pond)
+    
+5. Statistics.py 
+    LinePlot(Statistics) - plot line graph about 'Each Ride Profits Per Time Stamp'
+    TablePlot(Statistics) - plot table about '# Operations', '# Patrons', 'Price', '# Profit'
+    ScatterPlot(Statistics) - Plot scatter graph about 'Patrons movement'
+
+6. BottonControl.py
+    SpeedControl() - manages the temporal speed of the simulation loop
+    WeatherControl() - manages the rain visualization using animation loop on a matplotlib Axes object
+
+
+7. map_dawn.csv - time of day(dawn) + sun(#FF6666) + ground(#8cc751)
+   map_morning.csv - time of day(morning) + sun(#FFFF99) + ground(lightgreen)
+   map_sunset.csv - time of day(sunset) + sun(orangered) + ground(#8cc751)
+   map_midnight.csv - time of day(midnight) + moon(gold) + ground(olivedrab)
+   map_mix.csv - whole day(dawn + morning + sunset + midnight)
+
+8. param1.csv - batch mode parameters file(set normal values)
+   param2.csv - batch mode parameters file(set some unnormal values)
+   param3.csv - batch mode parameters file(set some normal + unnormal + null values)
+   
+9. scenario_param1.csv - batch mode scenario parameters file(set 200 timestamp, 10 patrons, 2 rides)
+   scenario_param2.csv - batch mode scenario parameters file(set 200 timestamp, 30 patrons, 3 rides) 
+   scenario_param3.csv - batch mode scenario parameters file(set 200 timestamp, 40 patrons, 4 rides)  
+    
+    
+## Dependencies
+matplotlib, scipy, numpy, random, queue, names, csv, pandas, and datetime
+
+## Version information
+07/10/2025 - initial version of Assignment programs
+
