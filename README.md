@@ -110,27 +110,17 @@ Map file defines background elements (sky, ground, sun, moon, clouds).
 
 📂 Project Structure
 
-AdventureWorld/
-
-  │
-  
-  ├── adventureworld.py
-  
-  ├── Rides.py
-
-  ├── Patrons.py
-
-  ├── Terrains.py
-
-  ├── ButtonControl.py
-
-  ├── Statistics.py
-
-  ├── map_*.csv
-
-  ├── param*.csv
-
-  └── README.md
+    AdventureWorld/
+    │
+    ├── adventureworld.py
+    ├── Rides.py
+    ├── Patrons.py
+    ├── Terrains.py
+    ├── ButtonControl.py
+    ├── Statistics.py
+    ├── map_*.csv
+    ├── param*.csv
+    └── README.md
 
 
 
